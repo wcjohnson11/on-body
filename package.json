@@ -1,0 +1,11 @@
+{
+  "name": "on-body",
+  "version": "1.0.0",
+  "description": "callback when document.body exists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Todo\""
+  },
+  "author": "",
+  "license": "MIT"
+}
