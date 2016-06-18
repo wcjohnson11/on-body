@@ -1,11 +1,14 @@
 {
-  "name": "on-body",
-  "version": "1.0.0",
+  "name": "on-body-ready",
+  "version": "1.0.1",
   "description": "callback when document.body exists",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Todo\""
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@ndhoule/keys": "^2.0.0"
+  }
 }

@@ -1,4 +1,4 @@
-var each = require('each');
+var each = require('@ndhoule/each');
 
 
 /**
@@ -37,7 +37,7 @@ module.exports = function onBody (callback) {
 var interval = setInterval(function () {
   if (!document.body) return;
   body = true;
-  each(callbacks, call);
+  each(call, callbacks);
   clearInterval(interval);
 }, 5);
 
