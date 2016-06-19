@@ -1,6 +1,6 @@
 {
   "name": "on-body-ready",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "callback when document.body exists",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,5 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ndhoule/each": "^2.0.1"
   }
 }
